@@ -52,4 +52,5 @@ return {
   { "windwp/nvim-autopairs", commit = "c6139ca0d5ad7af129ea6c89cb4c56093f2c034a", optional = true },
   { "windwp/nvim-ts-autotag", commit = "531f48334c422222aebc888fd36e7d109cb354cd", optional = true },
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { 'IogaMaster/neocord', event = "VeryLazy"}
 }
