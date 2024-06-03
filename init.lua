@@ -11,8 +11,6 @@ for _, source in ipairs {
   if not status_ok then vim.api.nvim_err_writeln("Failed to load " .. source .. "\n\n" .. fault) end
 end
 
--- Setting the colortheme to catppuccin.
-astronvim.default_colorscheme = 'catppuccin'
 if astronvim.default_colorscheme then
   if not pcall(vim.cmd.colorscheme, astronvim.default_colorscheme) then
     require("astronvim.utils").notify(
